@@ -1,0 +1,133 @@
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .head {
+        text-align: center;
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-weight: bolder;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .head> * {
+        flex: 1;
+        flex-basis: 1;
+    }
+
+    .body {
+        text-align: start;
+        padding-left: 50px;
+        padding-top: 50px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .body> * {
+        flex: 1;
+        flex-basis: 1;
+    }
+
+    .foot {
+        text-align: start;
+        padding-top: 60px;
+        padding-left: 50px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .foot> * {
+        flex: 1;
+        flex-basis: 1;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    .input {
+        border: 2px solid blue;
+        background: blue;
+        color: white;
+        border-radius: 10%;
+    }
+
+    
+    .inputs {
+        border: 2px solid blue;
+        background: blue;
+        color: white;
+        border-radius: 11%;
+        padding: 1%;
+    }
+
+    .button{
+        border: 2px solid blue;
+        background: white;
+        color: blue;
+        border-radius: 11%;
+        padding: 1%;
+    }
+    
+    .logo {
+        border-radius: 2px solid white;
+        border-radius: 50%;
+        width: 20%;
+        height: 50%;
+    }
+
+    span {
+        color: blue;
+    }
+
+    .imgs {
+        border: 2px solid white;
+        width: 70%;
+        height: 60%;
+    }
+
+    .ggg {
+        font-size: 30px;
+        font-weight: bolder;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    div a:hover {
+        color: blue;
+        transition: all ease-in 200ms;
+        font-weight: bolder;
+    }
+
+    button:hover {
+        background-color: aqua;
+    }
+
+    div .ggg:hover {
+        background-color: blue;
+    }
+
+    .in {
+        border: 2px solid blue;
+        background: black;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .in:hover {
+        color: black;
+        background-color: white;
+    }
